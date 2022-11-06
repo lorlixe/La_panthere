@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -133,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #a94442;
 }
 
 .d-bloc .a-btn:hover,
@@ -334,7 +333,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background:#f5c2aa;
+    border-radius: 15px;
 }
 
 .navbar-toggle {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -766,16 +766,14 @@ h4 {
     background-color: #FFFFFF;
 }
 
-/* .bgc-dark-slate-blue {
-    background-color: #364577;
-} */
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -784,8 +782,9 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #FFFFFF!important;
+    color:  #c27956!important;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .ltc-white {
@@ -805,8 +804,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #c27956!important;
+    border-color: #c27956!important;
 }
 
 .bg-dots-bg {
@@ -822,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -932,7 +931,7 @@ h4 {
         width: 100%;
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: rgba(206, 76, 76, 0.08);
     }
     .dropdown .dropdown a .caret {
         float: none;

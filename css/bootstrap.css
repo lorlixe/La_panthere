@@ -1870,7 +1870,8 @@ blockquote p {
     margin-bottom: 0;
 }
 blockquote span {
-    color: #777;
+    color: #575757!important;
+    font-weight: bold;
 }
 
 blockquote ol:last-child,
@@ -4892,13 +4893,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    background-color: #eee;
 }
 
 .nav>li.disabled>a {
