@@ -78,7 +78,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Votre message a été envoyé." data-fail-msg="Déoslé votre message n'a pas été envoyé, vérifier votre adresse mail">
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -92,10 +92,10 @@
 						<input id="email" placeholder="n.dupont@abc.com" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="select">
+						<label for="my_html_select_box">
 							Comment nous avez-vous connu ?
 						</label>
-						<select name="my_html_select_box" class="form-control">
+						<select id="my_html_select_box" class="form-control">
 							<option>Réseau sociaux </option>
 							<option>Bouche à oreille</option>
 							<option>Autre</option>
@@ -106,13 +106,13 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine cta-form" type="submit">
 						Envoyer
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<img loading="lazy" src="img/logo.png" class="center-block image-resize-mode" width="40%" alt="Agence La Panthère, agence web paris, création logo paris" />
+				<img loading="lazy" src="img/logo.png" class="center-block image-resize-mode" width="240" alt="Agence La Panthère, agence web paris, création logo paris" />
 				<p>
 					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
